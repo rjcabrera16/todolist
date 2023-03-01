@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="RJ Cabrera" />
+        <title>To-do List</title>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="assets/image/favicon.png" type="image/x-icon" />
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/75cff2eec9.js" crossorigin="anonymous"></script>
+        <!-- main css -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <div class="app">
+            <h1 class="todo-h1">To-do List</h1>
+            <hr />
+            <div class="todo-filter">
+                <input type="search" name="" id="" class="todo-search" placeholder="Search" />
+                <div class="todo-sort-container">
+                    <button class="todo-sort-btn btn-primary">
+                        <span class="todo-sort-text">Sort</span>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <ul class="todo-sort-menu hidden">
+                        <li class="todo-sort-item">Completed</li>
+                        <li class="todo-sort-item">Incomplete</li>
+                        <li class="todo-sort-item">All</li>
+                    </ul>
+                </div>
+            </div>
+            <strong class="todo-message"></strong>
+            <div class="todo-item-container"></div>
+            <form action="" method="post" class="todo-add-form">
+                <label for="todo-add-input" class="todo-add-input-label"></label>
+                <input type="text" name="" id="todo-add-input" placeholder="Add Todo" />
+                <div class="text-end">
+                    <button class="todo-add-btn btn-primary">Add</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- uuid -->
+        <script src="https://cdn.tutorialjinni.com/uuid/8.3.2/uuidv4.min.js"></script>
+        <!-- main script -->
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
